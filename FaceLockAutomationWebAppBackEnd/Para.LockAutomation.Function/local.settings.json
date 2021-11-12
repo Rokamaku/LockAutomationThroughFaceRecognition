@@ -1,0 +1,36 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=paralockstorage;AccountKey=d/4HhsaOnfhrj3cUhzmhFUDom5UXEOHpMHx/hzv13jcJCfRXsYBLZFVLwac13cabegLsrqY5q1fnu5ShFPEqvg==;EndpointSuffix=core.windows.net",
+    "AzureWebJobsInputStorage": "DefaultEndpointsProtocol=https;AccountName=facelogstorage;AccountKey=tF9DPfyQQB8nh7zkJrENCuGW0XLzASdKtLQGUVdl3BRHXzOEy72wEMoN/lXpQeMKtiJMIJT2x/euIngEsME6jw==;EndpointSuffix=core.windows.net",
+    "AzureSignalRConnectionString": "Endpoint=https://paralock.service.signalr.net;AccessKey=ljrNiOdyVyXYBmtw4qp9Q5lbCHKHEBRDQFSL1rhls5k=;Version=1.0;",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "0437ea78-4561-4859-8b7b-c46d7219dd3d",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  },
+  "ConnectionStrings": {
+    "SqlConnection": "Server=tcp:para-sqldb.database.windows.net,1433;Initial Catalog=paralock;Persist Security Info=False;User ID=parakoda;Password=Mypassword102;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "IoTConnection": "HostName=para-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=6JKUtP8YVlU8dmfPFklEYXbSrYjlmh03Iz6C7xbK3fo="
+  },
+  "AzureStorage": {
+    "AccountName": "facelogstorage",
+    "AccessKey": "tF9DPfyQQB8nh7zkJrENCuGW0XLzASdKtLQGUVdl3BRHXzOEy72wEMoN/lXpQeMKtiJMIJT2x/euIngEsME6jw==",
+    "FaceDatasetContainer": "face-dataset",
+    "FaceLogContainer": "face-rpi"
+  },
+  "MSFaceApi": {
+    "Endpoint": "https://southeastasia.api.cognitive.microsoft.com/face/v1.0",
+    "APIKey": "ba5af73cc0ec4e6c877b58b2c8b5e605"
+  },
+  "IotHub": {
+    "DeviceID": {
+      "para-rpi": "para-rpi"
+    }
+  },
+  "ParaFuncUrl": {
+    "Development": "http://localhost:7071",
+    "Production": "https://para-lock-func.azurewebsites.net/"
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}

@@ -1,0 +1,35 @@
+div.ui.borderless.menu > .item.menu-item-container {
+  display: inline-block;
+}
+
+.item.item.menu-item-container > .ui.ribbon.label.menu-item-label {
+  display: inline-block;
+}
+
+.item.item.menu-item-container > .ui.selection.dropdown.menu-item-content {
+  display: block;
+}
+
+.ui.raised.segment .ui.placeholder.segment.item-log-container {
+  overflow-y: scroll;
+  background: white;
+  text-align: center;
+}
+
+.ui.celled.center.aligned.five.column.grid .row .column.item-log-column {
+  padding: 0;
+}
+
+.row .column .item.log-item {
+  padding: 1em;
+}
+
+.row .column .item.log-item:hover {
+  background-color: #F2F2F2;
+  cursor: pointer;
+}
+
+.ui.medium.image.empty-image {
+  margin-left: auto;
+  margin-right: auto;
+}
